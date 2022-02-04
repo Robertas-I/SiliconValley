@@ -1,8 +1,11 @@
 package ivanavicius.robertas.view.home.viewHolder
 
-import android.view.View
 import androidx.recyclerview.widget.RecyclerView
+import ivanavicius.robertas.model.home.EpisodeListItemModel
+import ivanavicius.robertas.view.databinding.HolderSeasonViewBinding
 
-class SeasonViewHolder(itemView: View): RecyclerView.ViewHolder(itemView) {
+class SeasonViewHolder(itemView: HolderSeasonViewBinding): RecyclerView.ViewHolder(itemView.root) {
+    fun onBind(item: EpisodeListItemModel){
 
+    }
 }
