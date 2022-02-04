@@ -1,0 +1,19 @@
+apply from: "$rootDir/common-android.gradle"
+
+android {
+    buildFeatures {
+        viewBinding true
+    }
+}
+
+dependencies {
+    implementation project(appModules.core)
+    implementation project(appModules.viewModel)
+    implementation project(appModules.model)
+
+    implementation androidLibs.ktx
+    implementation androidLibs.material
+    implementation androidLibs.constraint
+    implementation androidLibs.navigationFragment
+    implementation androidLibs.navigationUi
+}

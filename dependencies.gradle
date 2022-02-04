@@ -1,0 +1,50 @@
+ext.appModules = [
+        app         : ":app",
+        api         : ":api",
+        core        : ":core",
+        view        : ":view",
+        viewModel   : ":viewModel",
+        model       : ":model"
+]
+
+ext.versions = [
+        ktx         : "1.7.0",
+        appCompact  : "1.4.1",
+        material    : "1.5.0",
+        constraint  : "2.1.3",
+        navigation  : "2.4.0",
+        ktxViewModel: "2.2.0",
+
+        gson        : "2.8.9",
+        coroutines  : "1.4.2",
+
+        junit       : "4.13.2",
+        extJunit    : "1.1.3",
+        espresso    : "3.4.0"
+]
+
+ext.projectLibs = [
+        navigationSafeArgs  : "androidx.navigation:navigation-safe-args-gradle-plugin:${versions.navigation}"
+]
+
+ext.androidLibs = [
+        ktx                 : "androidx.core:core-ktx:${versions.ktx}",
+        appCompact          : "androidx.appcompat:appcompat:${versions.appCompact}",
+        material            : "com.google.android.material:material:${versions.material}",
+        constraint          : "androidx.constraintlayout:constraintlayout:${versions.constraint}",
+        navigationFragment  : "androidx.navigation:navigation-fragment-ktx:${versions.navigation}",
+        navigationUi        : "androidx.navigation:navigation-ui-ktx:${versions.navigation}",
+        ktxViewModel        : "androidx.lifecycle:lifecycle-viewmodel-ktx:${versions.ktxViewModel}",
+
+        gson                : "com.google.code.gson:gson:${versions.gson}",
+        coroutines          : "org.jetbrains.kotlinx:kotlinx-coroutines-android:${versions.coroutines}",
+]
+
+ext.testLibs = [
+        junit       : "junit:junit:${versions.junit}"
+]
+
+ext.androidTestLibs = [
+        extJunit    : "androidx.test.ext:junit:${versions.extJunit}",
+        espresso    : "androidx.test.espresso:espresso-core:${versions.espresso}",
+]

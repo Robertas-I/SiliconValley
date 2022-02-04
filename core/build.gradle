@@ -1,0 +1,7 @@
+apply from: "$rootDir/common-android.gradle"
+
+android {
+    buildFeatures {
+        viewBinding true
+    }
+}

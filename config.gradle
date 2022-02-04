@@ -1,0 +1,10 @@
+ext.config = [
+        applicationId   : "ivanavicius.robertas.siliconvalley",
+
+        versionCode     : 1,
+        versionName     : "1.0",
+
+        minSdk          : 23,
+        compileSdk      : 31,
+        targetSdk       : 31,
+]
