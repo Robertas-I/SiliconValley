@@ -13,7 +13,7 @@ class SeasonViewHolder(binding: HolderSeasonViewBinding): BaseViewHolder<HolderS
     private val adapter = EpisodesAdapter()
 
     override fun onBind(item: SeasonListItemModel){
-        binding.title.text = itemView.context.getString(R.string.season, item.seasonNb)
+        binding.title.text = context.getString(R.string.season, item.seasonNb)
         binding.episodes.adapter = adapter
         adapter.submitList(item.seasonEpisodes)
     }
