@@ -5,7 +5,7 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import com.squareup.picasso.Picasso
-import ivanavicius.robertas.core.BaseFragment
+import ivanavicius.robertas.core.base.BaseFragment
 import ivanavicius.robertas.view.R
 import ivanavicius.robertas.view.databinding.FragmentEpisodeBinding
 

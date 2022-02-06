@@ -5,3 +5,7 @@ android {
         viewBinding true
     }
 }
+
+dependencies {
+    implementation androidLibs.recyclerView
+}

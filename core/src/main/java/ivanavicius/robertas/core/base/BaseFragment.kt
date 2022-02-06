@@ -1,4 +1,4 @@
-package ivanavicius.robertas.core
+package ivanavicius.robertas.core.base
 
 import android.os.Bundle
 import android.view.LayoutInflater

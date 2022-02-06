@@ -5,7 +5,7 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import androidx.fragment.app.viewModels
-import ivanavicius.robertas.core.BaseFragment
+import ivanavicius.robertas.core.base.BaseFragment
 import ivanavicius.robertas.view.databinding.FragmentEpisodesListBinding
 import ivanavicius.robertas.view.home.adapter.SeasonsAdapter
 import ivanavicius.robertas.viewmodel.home.EpisodesViewModel

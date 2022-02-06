@@ -3,4 +3,5 @@ apply plugin: "kotlin-parcelize"
 
 dependencies {
     implementation project(appModules.api)
+    implementation project(appModules.core)
 }
