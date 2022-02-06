@@ -18,5 +18,9 @@
         android:id="@+id/episodeFragment"
         android:name="ivanavicius.robertas.view.home.EpisodeFragment"
         android:label="EpisodeFragment"
-        tools:layout="@layout/fragment_episode"/>
+        tools:layout="@layout/fragment_episode">
+        <argument
+            android:name="episode"
+            app:argType="ivanavicius.robertas.model.home.EpisodeModel" />
+    </fragment>
 </navigation>

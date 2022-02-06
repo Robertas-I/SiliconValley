@@ -1,3 +1,5 @@
 <resources>
-    <string name="app_name">view</string>
+    <string name="season">Season %1$d</string>
+    <string name="episodeName">E%1$d - %2$s</string>
+    <string name="fullName">S%1$dE%2$d - %3$s</string>
 </resources>
