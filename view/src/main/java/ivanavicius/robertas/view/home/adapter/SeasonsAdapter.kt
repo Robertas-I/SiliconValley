@@ -1,7 +1,6 @@
 package ivanavicius.robertas.view.home.adapter
 
 import android.view.ViewGroup
-import androidx.recyclerview.widget.ListAdapter
 import ivanavicius.robertas.core.base.BaseListAdapter
 import ivanavicius.robertas.core.base.BaseModel
 import ivanavicius.robertas.core.base.BaseViewHolder

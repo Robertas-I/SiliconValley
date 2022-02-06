@@ -1,8 +1,6 @@
 package ivanavicius.robertas.view.home.viewHolder
 
-import androidx.recyclerview.widget.RecyclerView
 import ivanavicius.robertas.core.base.BaseViewHolder
-import ivanavicius.robertas.model.home.EpisodeListItemModel
 import ivanavicius.robertas.model.home.SeasonListItemModel
 import ivanavicius.robertas.view.R
 import ivanavicius.robertas.view.databinding.HolderSeasonViewBinding
